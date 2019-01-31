@@ -12,10 +12,7 @@
 		83E9CD49220254BF00EBE7D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CD47220254BF00EBE7D0 /* Main.storyboard */; };
 		83E9CD4B220254C000EBE7D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CD4A220254C000EBE7D0 /* Assets.xcassets */; };
 		83E9CD4E220254C000EBE7D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CD4C220254C000EBE7D0 /* LaunchScreen.storyboard */; };
-		83E9CD562202550800EBE7D0 /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CD552202550800EBE7D0 /* angry.png */; };
-		83E9CD58220259D100EBE7D0 /* angry.webp in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CD572202551900EBE7D0 /* angry.webp */; };
 		83E9CD5B22025E8C00EBE7D0 /* monkey_selfie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CD5922025E8B00EBE7D0 /* monkey_selfie.jpg */; };
-		83E9CD5C22025E8C00EBE7D0 /* monkey_selfie.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CD5A22025E8C00EBE7D0 /* monkey_selfie.png */; };
 		897F7E9EDE0F8B855633C5E8 /* Pods_Kingfisher5Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D0F146BFB9BF2BFAB570B3 /* Pods_Kingfisher5Test.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,10 +26,7 @@
 		83E9CD4A220254C000EBE7D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83E9CD4D220254C000EBE7D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83E9CD4F220254C000EBE7D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83E9CD552202550800EBE7D0 /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
-		83E9CD572202551900EBE7D0 /* angry.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = angry.webp; sourceTree = "<group>"; };
 		83E9CD5922025E8B00EBE7D0 /* monkey_selfie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monkey_selfie.jpg; sourceTree = "<group>"; };
-		83E9CD5A22025E8C00EBE7D0 /* monkey_selfie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey_selfie.png; sourceTree = "<group>"; };
 		C39EF339B4919D1BEBAA513A /* Pods-Kingfisher5Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kingfisher5Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kingfisher5Test/Pods-Kingfisher5Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,10 +86,7 @@
 				83E9CD4A220254C000EBE7D0 /* Assets.xcassets */,
 				83E9CD4C220254C000EBE7D0 /* LaunchScreen.storyboard */,
 				83E9CD4F220254C000EBE7D0 /* Info.plist */,
-				83E9CD572202551900EBE7D0 /* angry.webp */,
-				83E9CD552202550800EBE7D0 /* angry.png */,
 				83E9CD5922025E8B00EBE7D0 /* monkey_selfie.jpg */,
-				83E9CD5A22025E8C00EBE7D0 /* monkey_selfie.png */,
 			);
 			path = Kingfisher5Test;
 			sourceTree = "<group>";
@@ -161,10 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E9CD4E220254C000EBE7D0 /* LaunchScreen.storyboard in Resources */,
-				83E9CD562202550800EBE7D0 /* angry.png in Resources */,
 				83E9CD5B22025E8C00EBE7D0 /* monkey_selfie.jpg in Resources */,
-				83E9CD5C22025E8C00EBE7D0 /* monkey_selfie.png in Resources */,
-				83E9CD58220259D100EBE7D0 /* angry.webp in Resources */,
 				83E9CD4B220254C000EBE7D0 /* Assets.xcassets in Resources */,
 				83E9CD49220254BF00EBE7D0 /* Main.storyboard in Resources */,
 			);
@@ -199,14 +187,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Kingfisher5Test/Pods-Kingfisher5Test-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework",
-				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KingfisherWebP.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
